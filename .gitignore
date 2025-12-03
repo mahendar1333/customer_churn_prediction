@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sbin/
+share/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Large data and model files (don't push to GitHub)
+data/*.csv
+models/*.pkl
+models/*.txt
+
+# But keep these small files
+!data/README.md
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
